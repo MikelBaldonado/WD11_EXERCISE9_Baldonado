@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MGB - Portfolio</title>
+    <link rel="stylesheet" href="css/wd11_exercise9_baldonado.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a href="WD11_EXERCISE9_baldonado.html" class="navbar-brand text-white"> MGB </a>
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarExample"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarExample">
+        <ul class="navbar-nav">
+         
+          <li class="new-item">
+            <a href="WD11_EXERCISE9_baldonado.html#about" class="nav-link">About</a>
+          </li> 
+          <li class="new-item">
+            <a href="WD11_EXERCISE9b_baldonado.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="new-item">
+            <a href="WD11_EXERCISE9d_baldonado.html" class="nav-link">Resume</a>
+          </li>
+          <li class="new-item">
+            <a href="WD11_EXERCISE9c_baldonado.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <br />        
+  </nav>
+  <!-- End of navbar -->
+
+    <h1>Portfolio</h1>
+    <br />
+
+    <!-- Carousel Slide -->
+    <div class="container-fluid">
+      <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">     
+        <!-- Indicators -->
+            <div class="carousel-indicators">
+              <button
+                data-bs-target="#carouselSlide"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button data-bs-target="#carouselSlide" data-bs-slide-to="1"></button>
+              <button data-bs-target="#carouselSlide" data-bs-slide-to="2"></button>
+            </div>
+            <!-- end of indicators -->
+  
+            <!-- Slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/web1.png" class="d-block w-100" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h1 class="text-primary">Banner 1</h1> -->
+                  <!-- <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam mollitia atque dolorum dicta earum, unde, doloribus
+                    exercitationem voluptate magni quis ut omnis voluptatem. Vel nobis
+                    temporibus nam voluptatem autem culpa.
+                  </p> -->
+                  <!-- <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#sampleModal"
+                  >
+                    Click me to view more information
+                  </button> -->
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img
+                  src="image/web2.png"
+                  class="d-block w-100"
+                  alt="First slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h1 class="text-success">Banner 2</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam mollitia atque dolorum dicta earum, unde, doloribus
+                    exercitationem voluptate magni quis ut omnis voluptatem. Vel nobis
+                    temporibus nam voluptatem autem culpa.
+                  </p>
+                  <button
+                    class="btn btn-success"
+                    data-bs-toggle="modal"
+                    data-bs-target="#sampleModal2"
+                  >
+                    Click me to view more information
+                  </button> -->
+                </div>
+              </div>
+  
+            
+            <!-- End of Slideshow -->
+  
+            <!-- Start Modal -->
+            <!-- <div class="modal fade" id="sampleModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5>Banner1</h5>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laboriosam mollitia atque dolorum dicta earum, unde, doloribus
+                      exercitationem voluptate magni quis ut omnis voluptatem. Vel
+                      nobis temporibus nam voluptatem autem culpa.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary">Sign up Now!</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="modal fade" id="sampleModal2">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5>Banner2</h5>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laboriosam mollitia atque dolorum dicta earum, unde, doloribus
+                      exercitationem voluptate magni quis ut omnis voluptatem. Vel
+                      nobis temporibus nam voluptatem autem culpa.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary">Sign up Now!</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="modal fade" id="sampleModal3">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5>Banner3</h5>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laboriosam mollitia atque dolorum dicta earum, unde, doloribus
+                      exercitationem voluptate magni quis ut omnis voluptatem. Vel
+                      nobis temporibus nam voluptatem autem culpa.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary">Sign up Now!</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- End of Modal -->
+  
+            <!-- left and right controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselSlide"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- previous -->
+  
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselSlide"
+              data-bs-slide="next"
+            >
+              <span class="visually-hidden">Next</span>
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <!-- end of controls -->
+          </div>
+  
+      </div>
+    </div>
+    <!-- end of carousel -->
+    <br>
+
+    <!-- Card -->
+    <div class="row g-5">
+      <!-- card -->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="image/abakus.png"
+            alt=""
+            class="card-img-top"
+            style="height: 300px; max-width: 100%; margin: 0"
+          />
+          <div class="card-body">
+            <h3 class="card-title">ABAKUS</h3>
+            <h6 class="card-subtitle">Abakus Accounting System</h6>
+            <p class="card-text">
+              ABAKUS accounting system are customized to different types of
+              SME’s in the Philippines. The following are the features of the
+              ABAKUS accounting system:
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#AbakusModal"
+              >
+                View more
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="image/payroll.png"
+            alt=""
+            class="card-img-top"
+            style="height: 300px; max-width: 100%; margin: 0"
+          />
+          <div class="card-body">
+            <h3 class="card-title">PAYROLL</h3>
+            <h6 class="card-subtitle">HRIS and PAYROLL</h6>
+            <p class="card-text">
+              HRIS and PAYROLL system provide to help certain company to manage
+              their employees’ information and payroll. The following are the
+              features of the HRIS and PAYROLL system:
+              <button class="btn btn-primary"
+              data-bs-toggle="modal"
+                data-bs-target="#payrollModal"
+                >View more</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="image/inventory.png"
+            alt=""
+            class="card-img-top"
+            style="height: 300px; max-width: 100%; margin: 0"
+          />
+          <div class="card-body">
+            <h3 class="card-title">INVENTORY</h3>
+            <h6 class="card-subtitle">INVENTORY SYSTEM</h6>
+            <p class="card-text">
+              Inventory system are develop for various company that manage
+              inventory systems and their products. The following are the
+              features of the INVENTORY system:
+              <button class="btn btn-primary"
+              data-bs-toggle="modal"
+                data-bs-target="#inventoryModal">View more</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end of card -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="AbakusModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-secondary text-white">
+              <h5>ABAKUS ACCOUNTING SYSTEM</h5>
+            </div>
+            <div class="modal-body">
+              <p>
+                <ul>
+                    <li>
+                        Flexible and user-defined financial reporting period (whether
+                        calendar or fiscal year
+                    </li>
+                    <li>
+                        Can create multiple files or directories for separate accounting 
+                        of transactions of the other businesses or projects
+                    </li>
+                    <li>
+                        Allows entry of user-defined Chart of Accounts (with facility to 
+                        inherit the Standard Chart of Accounts.
+                    </li>
+
+                </ul>
+                  
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="payrollModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h5>PAYROLL SYSTEM</h5>
+            </div>
+            <div class="modal-body">
+              <p>
+                <ul>
+                    <li>
+                        Unlimited number of employees;
+                    </li>
+                    <li>
+                        Easy change the table of the SSS, TAX and PhilHealth
+                    </li>
+                    <li>
+                        Daily Time Record of each employees are included in the systems.
+                    </li>
+
+                </ul>
+                  
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="inventoryModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-warning text-white">
+              <h5>INVENTORY SYSTEM</h5>
+            </div>
+            <div class="modal-body">
+              <p>
+                <ul>
+                    <li>
+                        Included POINT OF SALES;
+                    </li>
+                    <li>
+                        Easy generating of reports such as Daily Sales, Purchase Order, Merchandise Inventory etc.
+                    </li>
+                    <li>
+                        Product Stock Card, Customer Transaction Report
+                    </li>
+
+                </ul>
+                  
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Modal -->
+    </div>
+    <!-- End of Card -->
+
+  </body>
+<br>
+  <section class="footer text-white text-center">
+    <div>
+        <a href="WD11_EXERCISE9_baldonado.html#about">| About |</a>
+        <a href="WD11_EXERCISE9b_baldonado.html">Portfolio |</a>
+        <a href="WD11_EXERCISE9d_baldonado.html">Resume | </a>
+        <a href="WD11_EXERCISE9c_baldonado.html">Contact |</a>
+    </div>
+    <p>Created by Michael G. Baldonado</p>
+</section>
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+</html>
