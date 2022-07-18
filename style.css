@@ -1,0 +1,120 @@
+body {
+  padding: 2rem 0;
+  background: hsl(125, 81.36%, 23.54%);
+  /* background-image: url("../image/Haddock.gif"); */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  color: cornflowerblue;
+}
+
+.blackDesign {
+  background-color: rgb(64, 231, 13);
+  color: #9c6b0b;
+}
+
+.blueDesign {
+  background-color: #782496;
+  color: rgb(241, 241, 16);
+}
+
+#headingDesign {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-family: "Splash", cursive;
+}
+
+.boxModel {
+  padding: 20px 20px 20px 20px;
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+  border-top: solid black 3px;
+  border-bottom: solid black 3px;
+  margin: 20px 20px 20px 20px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+#overflowModel {
+  background-color: yellow;
+  height: 200px;
+  width: 500px;
+  overflow: scroll;
+  margin: 50px;
+  box-shadow: 10px 10px 40px red;
+  text-indent: 80px;
+}
+
+#textManipulation {
+  letter-spacing: 2px;
+  word-spacing: 20px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.firstDiv {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+.secondDiv {
+  width: 50%;
+  height: 100vh;
+  background-color: blue;
+  float: right;
+}
+.secondDivContainer {
+  padding: 50px;
+  color: black important;
+}
+
+.staticPosition {
+  position: static;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.staticElementPosition {
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  right: 0;
+}
+
+.relativePosition {
+  position: relative;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.absolutePosition {
+  position: absolute;
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.absolutePosition2 {
+  position: absolute;
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  right: 20px;
+  top: 0px;
+  z-index: 1;
+}
